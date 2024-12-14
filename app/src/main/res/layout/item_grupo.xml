@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/tvNombreGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Grupo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio" />
+
+    <TextView
+        android:id="@+id/tvUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuarios" />
+
+    <TextView
+        android:id="@+id/tvCosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Costo" />
+
+    <TextView
+        android:id="@+id/tvPolitica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Política de Pago" />
+
+    <TextView
+        android:id="@+id/tvFechaLimite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha Límite" />
+</LinearLayout>
